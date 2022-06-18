@@ -1,0 +1,155 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu-bar
+{
+	
+	text-align: center;
+	background-color: rgb(34, 65, 34);
+	
+	
+}
+.menu-bar #log {
+	float: left;
+	padding: 15px 15px;
+	height: 40px;
+
+}
+.menu-bar ul {
+
+display: inline-flex;
+list-style: none;
+color: rgb(216, 238, 216);
+    
+}
+.menu-bar  ul  li
+{
+width: 100px;
+margin: 20px;
+color: rgb(180, 216, 195);
+text-decoration: none;
+}
+.menu-bar ul li a {
+	
+	text-decoration:none;
+		color: rgb(219, 235, 219);
+	}
+	.active , .menu-bar ul li :hover{
+		border-radius: 3px;
+		background: rgb(123, 148, 131);
+		}
+
+
+ .menu-bar .fa
+{
+	margin-right: 7px;
+}
+.sub-menu{
+
+	display:none;
+	
+}
+.menu-bar ul li:hover   .sub-menu 
+{
+display:block;
+position: absolute;
+background-color:rgb(63, 80, 63);
+margin-top: 15px;
+margin-left:-15px;
+
+
+}
+.menu-bar ul li:hover .sub-menu ul
+{ 
+	display:block;
+	margin: 10px;
+}
+.menu-bar ul  li:hover  .sub-menu ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dashed #fff ;
+background: transparent;
+border-radius: 5px;
+text-align:left;
+border-bottom: dashed whitesmoke;
+}
+
+
+
+#head{
+    padding: 100px;
+	font-style:oblique;
+	font-size: 90px;
+	text-align: center;
+	font-weight: bold;
+	background-image: url('c:/users/sahar/desktop/img/backg.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+	background-size: cover;
+	-webkit-background-size:cover ;
+	-moz-background-size:cover ;
+	-moz-background-size: cover;
+
+}
+#head h1{
+	font-size: 90px;
+	color:rgba(31, 107, 29, 0.89);
+font-family: monospace;
+font-weight:bold;
+}
+.body{
+
+    padding: 100px;
+	background-color: rgba(243, 229, 213, 0.74);
+	background-size: cover;
+	background-attachment: scroll;
+    text-decoration: rosybrown;
+	border-style: groove;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: bold;
+	animation:shadow 5s ease-in-out infinite;
+	
+}
+
+@keyframes shadow{
+	0% {text-shadow: 2px 3px #999;}
+    50%{text-shadow: -2px 2px 3px #fff;}
+	100%{text-shadow: 3px 4px 4px  rgb(176, 206, 176)}
+	}
+
+.price{
+	text-decoration-line: line-through;
+	font-size: 50px;
+}
+.content{
+	
+	text-align: center;
+	padding: 200px;
+	background-color:rgb(148, 199, 148);
+
+	
+}
+.content a { text-decoration: none;
+color:rgb(104, 54, 7);
+font-size: 20px;
+margin: 33px 10px;
+border: white solid;
+}
+.content .table
+{
+	margin: 30px;
+}
+.go 
+{
+	padding:100px;
+	height: auto;
+	background-color: ivory;
+	text-align: right;
+	
+}
+.go a {
+	text-align: none;
+}

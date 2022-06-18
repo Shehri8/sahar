@@ -1,0 +1,98 @@
+
+body
+{
+background-image: url(c:/users/sahar/desktop/img/back.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+form
+{
+    padding:20px;
+    position:relative;
+    border: solid;
+    width: 500px;
+    margin-top:50px;
+    margin-left:450px;
+    background: linear-gradient(green , rgb(255, 255, 255))
+
+    
+
+}
+
+#bag :hover
+{
+    border-radius: 3px;
+
+}
+input
+{
+    padding:10px 40px;
+    margin:10px 20px;
+    width: 300px;
+
+}
+
+
+input[type=button]
+{   color: white;
+    width:100px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-left:34%;
+    background-color:rgb(48, 66, 20);
+ border: white;
+   border-style: groove;
+ 
+}
+
+
+p
+{
+    color: rgb(100, 145, 43);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 33PX;
+}
+.pay {
+
+    padding:10px;
+    margin-left: 150px;
+    font-size: 40px;
+    
+}
+.pay select
+{
+    background-color: rgb(226, 240, 194);
+    width: 250px;
+    height: 50px;
+    color: teal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    text-align: left;
+
+}
+.pay button
+{
+margin-bottom: 200px;
+margin-right: 200px;
+display: inline;
+width: 100px;
+background-color:rgb(48, 66, 20);
+margin: center;
+}
+.pay button a 
+{
+    text-decoration: none;
+    color: white;
+    font-size:bold;
+}
+.pay button a:hover
+{
+    
+    padding: 20px 10px;
+    color:olive;
+}
